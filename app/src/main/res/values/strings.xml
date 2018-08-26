@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">bingoGame</string>
+    <string name="restart_game">Reiniciar Bingo</string>
+</resources>
