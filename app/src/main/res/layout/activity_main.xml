@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/startButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -32,83 +32,31 @@
         app:layout_constraintStart_toEndOf="@+id/startButton" />
 
     <ImageView
-        android:id="@+id/imageViewB"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    <ImageView
-        android:id="@+id/imageViewI"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toEndOf="@+id/imageViewB"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    <ImageView
-        android:id="@+id/imageViewN"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toEndOf="@+id/imageViewI"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    <ImageView
-        android:id="@+id/imageViewG"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toEndOf="@+id/imageViewN"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    <ImageView
-        android:id="@+id/imageViewO"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageViewG"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
-        android:layout_height="168dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewB"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/relativeLayoutB"
-        android:layout_width="64dp"
-        android:layout_height="236dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="115dp"
         app:layout_constraintBottom_toTopOf="@+id/startButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewB"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/imageViewB">
 
         <ImageView
             android:id="@+id/imageViewBall1"
@@ -266,13 +214,10 @@
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/relativeLayoutI"
-        android:layout_width="63dp"
-        android:layout_height="236dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/startButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewB"
-        app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="87dp">
 
         <ImageView
@@ -431,15 +376,12 @@
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/relativeLayoutN"
-        android:layout_width="64dp"
-        android:layout_height="236dp"
+        android:layout_width="31dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="56dp"
         app:layout_constraintBottom_toTopOf="@+id/startButton"
-        app:layout_constraintStart_toEndOf="@+id/relativeLayoutI"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewB"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintStart_toEndOf="@+id/relativeLayoutI">
 
         <ImageView
             android:id="@+id/imageViewBall1"
@@ -600,12 +542,9 @@
         android:layout_width="64dp"
         android:layout_height="236dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/startButton"
-        app:layout_constraintStart_toEndOf="@+id/relativeLayoutN"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewB"
-        app:layout_constraintVertical_bias="0.0">
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/getBallButton"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayoutO">
 
         <ImageView
             android:id="@+id/imageViewBall1"
@@ -766,12 +705,9 @@
         android:layout_width="64dp"
         android:layout_height="236dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/startButton"
-        app:layout_constraintStart_toEndOf="@+id/relativeLayoutG"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewB"
-        app:layout_constraintVertical_bias="0.0">
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/getBallButton"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imageViewBall1"
@@ -923,6 +859,104 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall13"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayoutN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <ImageView
+            android:id="@+id/imageViewB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewI"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.51"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewI"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewN"
+            app:layout_constraintStart_toEndOf="@+id/imageViewB"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewN"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewG"
+            app:layout_constraintStart_toEndOf="@+id/imageViewI"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewG"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewO"
+            app:layout_constraintStart_toEndOf="@+id/imageViewN"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/imageViewO"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewG"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
     </android.support.constraint.ConstraintLayout>
