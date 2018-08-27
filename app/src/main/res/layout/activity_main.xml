@@ -48,815 +48,242 @@
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/relativeLayoutB"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="115dp"
-        app:layout_constraintBottom_toTopOf="@+id/startButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewB">
-
-        <ImageView
-            android:id="@+id/imageViewBall1"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall2"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall3"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall4"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall5"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall6"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall7"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall8"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall6"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall9"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall7"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall10"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall8"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall11"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall9"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall12"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall10"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall13"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall11"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall14"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall12"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall15"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall13"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    </android.support.constraint.ConstraintLayout>
-
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/relativeLayoutI"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/startButton"
-        tools:layout_editor_absoluteX="87dp">
-
-        <ImageView
-            android:id="@+id/imageViewBall1"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall2"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall3"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall4"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall5"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall6"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall7"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall8"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall6"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall9"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall7"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall10"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall8"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall11"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall9"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall12"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall10"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall13"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall11"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall14"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall12"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall15"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall13"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    </android.support.constraint.ConstraintLayout>
-
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/relativeLayoutN"
-        android:layout_width="31dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="56dp"
-        app:layout_constraintBottom_toTopOf="@+id/startButton"
-        app:layout_constraintStart_toEndOf="@+id/relativeLayoutI">
-
-        <ImageView
-            android:id="@+id/imageViewBall1"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall2"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall3"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall4"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall5"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall6"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall7"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall8"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall6"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall9"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall7"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall10"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall8"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall11"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall9"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall12"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall10"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall13"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall11"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall14"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall12"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall15"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall13"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    </android.support.constraint.ConstraintLayout>
-
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/relativeLayoutG"
-        android:layout_width="64dp"
-        android:layout_height="236dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/getBallButton"
-        app:layout_constraintEnd_toStartOf="@+id/relativeLayoutO">
-
-        <ImageView
-            android:id="@+id/imageViewBall1"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall2"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall3"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall4"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall5"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall6"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall7"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall8"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall6"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall9"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall7"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall10"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall8"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall11"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall9"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall12"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall10"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall13"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall11"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall14"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall12"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-        <ImageView
-            android:id="@+id/imageViewBall15"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBall13"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
-
-    </android.support.constraint.ConstraintLayout>
-
-    <android.support.constraint.ConstraintLayout
         android:id="@+id/relativeLayoutO"
-        android:layout_width="64dp"
-        android:layout_height="236dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="168dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="117dp"
         app:layout_constraintBottom_toTopOf="@+id/getBallButton"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageViewBall1"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="4dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
-            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall3"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBall2"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall2"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginRight="4dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall4"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBall1"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall3"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall5"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBall4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall4"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
             android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall6"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.994"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBall3"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall2"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall5"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall7"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBall6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall3"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall6"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
             android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall8"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBall5"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall4"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall7"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall9"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBall8"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall5"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall8"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
             android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall10"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBall7"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall6"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall9"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall11"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBall10"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall7"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall10"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
             android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall12"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBall9"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall8"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall11"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall13"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBall12"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall9"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall12"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
             android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall14"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBall11"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall10"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall13"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="4dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall15"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewBall14"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall11"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall14"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBall15"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewBall13"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall12"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <ImageView
             android:id="@+id/imageViewBall15"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginBottom="4dp"
+            android:layout_marginEnd="32dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBall13"
             app:srcCompat="@drawable/ic_launcher_foreground" />
@@ -867,11 +294,9 @@
         android:id="@+id/relativeLayout2"
         android:layout_width="0dp"
         android:layout_height="73dp"
-        android:layout_marginBottom="80dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayoutN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2">
